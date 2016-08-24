@@ -3,7 +3,7 @@
 $bubble-size: $space-base * 12;
 
 .bubble {
-  background-color: $color-purple;
+  background-color: $color-midnight;
   border-radius: $border-round;
   height: $bubble-size;
   left: calc((100% - 288px)*2/3);
@@ -81,7 +81,7 @@ $bubble-size: $space-base * 12;
 }
 .bubble-callout {
   @extend .font-headingN6;
-  color: rgba($color-purpleShade, .4);
+  color: rgba($color-midnightShade, .4);
   display: inline-block;
   font-size: modular-scale(8);
   margin: -$space-base 0;
@@ -93,7 +93,7 @@ $bubble-size: $space-base * 12;
   }
 }
 .callout-span {
-  color: $color-purpleShade;
+  color: $color-midnightShade;
   display: block;
   font-size: modular-scale(1);
   left: 50%;

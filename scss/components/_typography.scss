@@ -32,12 +32,12 @@ $letterSpacing-loosest: 1.7;
     font-weight: $w;
   }
   .font-subHeadingN#{$i} {
-    font-family: $fontFamily-subHeading;
+    font-family: $fontFamily-serif;
     font-style: normal;
     font-weight: $w;
   }
   .font-subHeadingI#{$i} {
-    font-family: $fontFamily-subHeading;
+    font-family: $fontFamily-serif;
     font-style: italic;
     font-weight: $w;
   }

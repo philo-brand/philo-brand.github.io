@@ -135,19 +135,19 @@ article {
 .press-link {
   @include transition(background-color $transition-time $transition-ease);
   background-color: $color-siteBackground;
-  border: solid $color-purple;
+  border: solid $color-midnight;
   border-width: 0 0 0 $space-base;
-  color: $color-purpleTint;
+  color: $color-midnightTint;
   display: block;
   padding: $space-base * 2 0 $space-base;
   @include media($medium-screen) {
     padding-bottom: 0;
     &:focus,
     &:hover {
-      background-color: $color-purple;
-      border-color: $color-purple;
+      background-color: $color-midnight;
+      border-color: $color-midnight;
       .press-date {
-        color: $color-purpleShade;
+        color: $color-midnightShade;
       }
     }
   }

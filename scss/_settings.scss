@@ -21,17 +21,22 @@ $large-screen-up: new-breakpoint(min-width $large-screen);
 $mobileMenuBreak: 1024px;
 
 // Brand Palette
-$color-gray: rgb(220, 205, 225);
-$color-grayDark: rgb(155, 140, 160);
-$color-purple: rgb(143, 25, 255);
-$color-purpleTint: tint($color-purple, 50%);
-$color-purpleShade: shade($color-purple, 50%);
-$color-pink: rgb(215, 91, 255);
+$color-midnight: rgb(23, 22, 57);
+$color-midnightTint: tint($color-midnight, 50%);
+$color-midnightShade: shade($color-midnight, 50%);
+$color-pink: rgb(228, 40, 94);
 $color-pinkTint: tint($color-pink, 50%);
 $color-pinkShade: shade($color-pink, 50%);
-$color-green: rgb(76, 255, 229);
+$color-green: rgb(117, 235, 191);
 $color-greenTint: tint($color-green, 50%);
 $color-greenShade: shade($color-green, 50%);
+$color-gold: rgb(213, 194, 132);
+$color-goldTint: tint($color-gold, 50%);
+$color-goldShade: shade($color-gold, 50%);
+
+// Unused
+$color-gray: $color-gold;
+$color-grayDark: $color-midnight;
 $color-blue: rgb(0, 91, 255);
 $color-blueTint: tint($color-blue, 50%);
 $color-blueShade: shade($color-blue, 50%);
@@ -47,7 +52,7 @@ $color-black40: shade($color-grayDark, 40%);
 $color-black30: shade($color-grayDark, 30%);
 $color-black20: shade($color-grayDark, 20%);
 $color-black10: shade($color-grayDark, 10%);
-$color-white: rgb(255, 255, 255);
+$color-white: rgb(247, 246, 237);
 $color-white90: tint($color-gray, 90%);
 $color-white80: tint($color-gray, 80%);
 $color-white70: tint($color-gray, 70%);
@@ -59,16 +64,16 @@ $color-white20: tint($color-gray, 20%);
 $color-white10: tint($color-gray, 10%);
 
 // General theme color applications
-$color-siteBackground: $color-black;
-$color-body: $color-white30;
-$color-heading: $color-white70;
+$color-siteBackground: $color-white;
+$color-body: $color-black;
+$color-heading: $color-body;
 $color-link: $color-pink;
 $color-linkHover: $color-link;
 
 // Typography and Rhythm
-$fontFamily-body: "futura-pt", $helvetica;
-$fontFamily-heading: $fontFamily-body; //'almaq-refined', $helvetica;
-$fontFamily-subHeading: $fontFamily-body;
+$fontFamily-body: "mr-eaves-modern", $helvetica;
+$fontFamily-heading: "mr-eaves-xl-modern", $fontFamily-body;
+$fontFamily-serif: "mrs-eaves", serif;
 
 // Line heights
 $lineHeight-heading: 1.2;
@@ -97,7 +102,7 @@ $pageTransition-ease: ease-out;
 
 // siteHead
 $color--logoOnDark: $color-white;
-$color--siteHead: $color-black90;
+$color--siteHead: $color-white;
 $height--siteHead: $space-base * 2.5;
 $height--mobileBtn: $space-base;
 
