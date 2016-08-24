@@ -1,0 +1,131 @@
+// Letter spacings
+// --------------------------------------------------
+$letterSpacing-tightest: 0.6;
+$letterSpacing-tighter: 0.8;
+$letterSpacing-tight: 0.9;
+$letterSpacing-normal: 1;
+$letterSpacing-loose: 1.1;
+$letterSpacing-looser: 1.4;
+$letterSpacing-loosest: 1.7;
+
+// Font weights and styles
+@for $i from 1 through 9 {
+  $w: $i * 100;
+  .font-bodyN#{$i} {
+    font-family: $fontFamily-body;
+    font-style: normal;
+    font-weight: $w;
+  }
+  .font-bodyI#{$i} {
+    font-family: $fontFamily-body;
+    font-style: italic;
+    font-weight: $w;
+  }
+  .font-headingN#{$i} {
+    font-family: $fontFamily-heading;
+    font-style: normal;
+    font-weight: $w;
+  }
+  .font-headingI#{$i} {
+    font-family: $fontFamily-heading;
+    font-style: italic;
+    font-weight: $w;
+  }
+  .font-subHeadingN#{$i} {
+    font-family: $fontFamily-subHeading;
+    font-style: normal;
+    font-weight: $w;
+  }
+  .font-subHeadingI#{$i} {
+    font-family: $fontFamily-subHeading;
+    font-style: italic;
+    font-weight: $w;
+  }
+}
+body {
+  @extend .font-bodyN4;
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  color: $color-body;
+  font-size: modular-scale(0);
+  line-height: $lineHeight-base;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .font-headingN7;
+  color: $color-heading;
+}
+h1 {
+  font-size: modular-scale(5);
+  line-height: $lineHeight-heading;
+  margin: 0 0 $space-base;
+  @include media($large-screen) {
+    font-size: modular-scale(6);
+  }
+}
+h2 {
+  font-size: modular-scale(4);
+  line-height: $lineHeight-heading;
+  margin: 0 0 $space-base;
+  @include media($large-screen-up) {
+    font-size: modular-scale(5);
+  }
+}
+h3 {
+  font-size: modular-scale(3);
+  line-height: $lineHeight-heading;
+  margin: 0 0 $space-base;
+  @include media($large-screen-up) {
+    font-size: modular-scale(4);
+  }
+}
+h4 {
+  font-size: modular-scale(2);
+  line-height: $lineHeight-heading;
+  margin: 0 0 $space-base;
+  @include media($large-screen-up) {
+    font-size: modular-scale(3);
+  }
+}
+h5 {
+  font-size: modular-scale(1);
+  line-height: $lineHeight-heading;
+  margin: 0 0 $space-base;
+  @include media($large-screen-up) {
+    font-size: modular-scale(2);
+  }
+}
+h6 {
+  font-size: modular-scale(0);
+  line-height: $lineHeight-heading;
+  margin: 0 0 $space-base;
+  @include media($large-screen-up) {
+    font-size: modular-scale(1);
+  }
+}
+p {
+  margin: 0 0 $space-base;
+}
+a {
+  color: $color-link;
+  cursor: pointer;
+  text-decoration: none;
+  @include transition(color $transition-time $transition-ease);
+  &:active,
+  &:focus,
+  &:hover {
+    color: $color-linkHover;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+strong,
+b {
+  @extend .font-bodyN6;
+}

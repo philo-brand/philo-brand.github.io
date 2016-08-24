@@ -1,0 +1,16 @@
+.u-hidden {
+  display: none;
+}
+.u-hidden-mobile {
+  @include media($small-screen-up) {
+    display: none;
+  }
+  @include media($medium-screen) {
+    display: block;
+  }
+}
+.u-visible-mobile {
+  @include media($medium-screen-up) {
+    display: none
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "stories": [
+    {
+      "title": "A Trip To Unicorn Island",
+      "copy": "<em>A Trip To Unicorn Island</em> follows YouTube sensation Lilly Singh as she embarks on a 26-city tour to meet her fans around the globe and spread her message of happiness as she proves to the world and herself that she has what it takes to become a world-class entertainer and make a difference not just online, but also in real life.",
+      "video": "https://www.youtube.com/embed/sID8KluZ5Xo?rel=0&amp;controls=0&amp;showinfo=0"
+    },
+    {
+      "title": "HeyUSA",
+      "copy": "<em>HeyUSA</em> is a crowd-sourced travel show. Season One featured social media stars and besties Grace Helbig and Mamrie Hart as they traveled the country in an eight-week road trip led by fans, who determined where the duo went and did through hi-octane social interaction. Season Two featured Mamrie and fan-selected megastars, including Jenna Marbles, Tyler Oakley, Colleen Ballinger, Kingsley and Flula Borg, who explored five cities – decided by puppet master Helbig.",
+      "video": "https://www.youtube.com/embed/g3TBl-D2Jn8?rel=0&amp;controls=0&amp;showinfo=0"
+    },
+    {
+      "title": "@SummerBreak",
+      "copy": "<em>@SummerBreak</em>, the real-time social media reality show sponsored by AT&T, follows a group of 10 graduating and incoming seniors from Santa Monica and Pacific Palisades High Schools as they spend their last summer together and prepare for college. With a production team following their every move, the teens’ experiences were shared the same way they are in real life: on Snapchat, Twitter, Tumblr, Instagram, YouTube, Periscope, We Heart It, and Facebook.",
+      "video": "https://www.youtube.com/embed/7cnsMm3vjS8?rel=0&amp;controls=0&amp;showinfo=0"
+    },
+    {
+      "title": "Tawk",
+      "copy": "<em>Tawk</em> is a “stylishly awkward” cult internet talk show that embodies Brooklyn’s quirk, irreverence, aesthetic and grime. It is inspired and hosted by Awkwafina, an irreverent self-styled female Asian rapper who came up on YouTube. The show interviews an impressive roster of rappers, YouTube legends, rising comedians, Vine stars, and hip-hop artists. Host Awkwafina went on to become a regular host on MTV’s <i>Girl Code</i> and will appear in the upcoming major motion picture <i>Neighbors 2</i>.",
+      "video": "https://www.youtube.com/embed/ug2B5vuV81E?rel=0&amp;controls=0&amp;showinfo=0"
+    }
+  ]
+}

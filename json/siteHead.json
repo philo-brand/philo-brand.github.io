@@ -1,0 +1,28 @@
+{
+  "menu-items": [
+    {
+      "label": "Creators",
+      "url": "creators.html"
+    },
+    {
+      "label": "Insights",
+      "url": "insights.html"
+    },
+    {
+      "label": "Our Process",
+      "url": "process.html"
+    },
+    {
+      "label": "Our Team",
+      "url": "team.html"
+    },
+    {
+      "label": "Press",
+      "url": "press.html"
+    },
+    {
+      "label": "Contact",
+      "url": "contact.html"
+    }
+  ]
+}

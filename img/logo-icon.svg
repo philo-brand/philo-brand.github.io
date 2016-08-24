@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="176px" height="141px" viewBox="0 0 176 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 3 Copy + Star 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Path-3-Copy-+-Star-1-Copy" sketch:type="MSLayerGroup" transform="translate(10.000000, 13.000000)">
+            <path d="M159.341449,103.735574 C159.341449,103.735574 156.281729,121.037457 152.638547,121.037456 C148.995366,121.037456 145.621316,93.6823642 140.797943,93.682364 C135.97457,93.6823639 128.829,121.037456 127.17461,121.037459 C125.520221,121.037461 63.7565218,0 63.7565218,0 L0,121.037459 L93.4024935,121.037459 L70.9218425,78.9336432" id="Path-3-Copy" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <polygon id="Star-1-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" points="63.9801093 84.4732437 50.4914916 91.4600225 52.9764949 76.4887362 42.1550673 65.8355168 57.1795016 63.5695318 63.9801093 49.9987013 70.780717 63.5695318 85.8051513 65.8355168 74.9837237 76.4887362 77.468727 91.4600225 "></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+h1,
+h2 {
+  text-transform: uppercase;
+}
+h2 {
+  padding: $space-base * 2 0 0;
+  margin-bottom: $space-base / 2;
+}
+h3,
+h4,
+h5,
+h6 {
+  // font-family: $fontFamily-body;
+}
+p {
+  @include media($medium-screen-up) {
+    font-size: modular-scale(1);
+  }
+}
+a {
+  @include transition(border $transition-time $transition-ease);
+  border: solid 1px;
+  padding: $space-base / 6 $space-base / 3;
+  @include media($medium-screen) {
+    border-bottom: solid;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    border-top: solid transparent;
+    border-width: 1px;
+    &:hover,
+    &:focus {
+      border-color: $color-pink;
+    }
+  }
+}
+.subheading {
+  font-size: modular-scale(1);
+  @include media($medium-screen) {
+    font-size: modular-scale(2);
+  }
+}
+.u-fitText {
+  display: block;
+}

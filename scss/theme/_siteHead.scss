@@ -1,0 +1,41 @@
+.siteHead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $zIndex-2;
+}
+.siteHead-wrapper {
+  border: none;
+  margin: 0;
+  max-width: none;
+}
+.siteHead-logo {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.siteHead-logoImg {
+  height: 18px;
+  margin-top: 21px;
+  width: 184px;
+  @include media($medium-screen) {
+    height: 24px;
+    margin-top:  18px;
+    width: 240px;
+  }
+}
+
+// Mobile view
+.siteHead-mobileMenuBtn {
+  @extend .font-bodyN6;
+  border: solid 1px $color-pink !important;
+  display: block;
+  font-size: modular-scale(-1);
+  float: right;
+  margin: 11.5px 0 0;
+  padding: $space-base / 3 $space-base / 1.5;
+  text-transform: uppercase;
+  @include media($mobileMenuBreak) {
+    display: none;
+  }
+}

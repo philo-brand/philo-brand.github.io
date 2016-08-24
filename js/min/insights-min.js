@@ -1,0 +1,1 @@
+var waypoints=$(".js-waypoint-social").waypoint({handler:function(a){$(".js-waypoint-social .barGraph-barWrapper").addClass("is-grown")},offset:"75%"});

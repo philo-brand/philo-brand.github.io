@@ -1,0 +1,114 @@
+@import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
+
+// Neat Overrides
+$modular-scale-ratio: $major-third;
+$modular-scale-base: 16px;
+$column: modular-scale(3);
+$gutter: modular-scale(1);
+// $grid-columns: 12;
+$max-width: em(960);
+// $visual-grid: true;
+
+// Neat Breakpoints
+$small-screen: em(320);
+$medium-screen: em(768);
+$large-screen: em(1281);
+$xlarge-screen: em(1441);
+$xxlarge-screen: em(1921);
+$small-screen-up: new-breakpoint(min-width $small-screen);
+$medium-screen-up: new-breakpoint(min-width $medium-screen);
+$large-screen-up: new-breakpoint(min-width $large-screen);
+$mobileMenuBreak: 1024px;
+
+// Brand Palette
+$color-gray: rgb(220, 205, 225);
+$color-grayDark: rgb(155, 140, 160);
+$color-purple: rgb(143, 25, 255);
+$color-purpleTint: tint($color-purple, 50%);
+$color-purpleShade: shade($color-purple, 50%);
+$color-pink: rgb(215, 91, 255);
+$color-pinkTint: tint($color-pink, 50%);
+$color-pinkShade: shade($color-pink, 50%);
+$color-green: rgb(76, 255, 229);
+$color-greenTint: tint($color-green, 50%);
+$color-greenShade: shade($color-green, 50%);
+$color-blue: rgb(0, 91, 255);
+$color-blueTint: tint($color-blue, 50%);
+$color-blueShade: shade($color-blue, 50%);
+
+// Reusable Tints and Shades
+$color-black: rgb(0, 0, 0);
+$color-black90: shade($color-grayDark, 90%);
+$color-black80: shade($color-grayDark, 80%);
+$color-black70: shade($color-grayDark, 70%);
+$color-black60: shade($color-grayDark, 60%);
+$color-black50: shade($color-grayDark, 50%);
+$color-black40: shade($color-grayDark, 40%);
+$color-black30: shade($color-grayDark, 30%);
+$color-black20: shade($color-grayDark, 20%);
+$color-black10: shade($color-grayDark, 10%);
+$color-white: rgb(255, 255, 255);
+$color-white90: tint($color-gray, 90%);
+$color-white80: tint($color-gray, 80%);
+$color-white70: tint($color-gray, 70%);
+$color-white60: tint($color-gray, 60%);
+$color-white50: tint($color-gray, 50%);
+$color-white40: tint($color-gray, 40%);
+$color-white30: tint($color-gray, 30%);
+$color-white20: tint($color-gray, 20%);
+$color-white10: tint($color-gray, 10%);
+
+// General theme color applications
+$color-siteBackground: $color-black;
+$color-body: $color-white30;
+$color-heading: $color-white70;
+$color-link: $color-pink;
+$color-linkHover: $color-link;
+
+// Typography and Rhythm
+$fontFamily-body: "futura-pt", $helvetica;
+$fontFamily-heading: $fontFamily-body; //'almaq-refined', $helvetica;
+$fontFamily-subHeading: $fontFamily-body;
+
+// Line heights
+$lineHeight-heading: 1.2;
+$lineHeight-base: 1.5;
+
+// Spacing Units
+$space-base: $lineHeight-base * modular-scale(0);
+
+// Borders
+$border-width: 1px;
+$border-radius: 1px;
+$border-round: 9999px;
+$border-color: $color-white50;
+$border-solid: $border-width solid $border-color;
+$border-flash: $border-width dashed;
+
+// Transitions
+$transition-time: 200ms;
+$transition-ease: linear;
+$pageTransition-time: 75ms;
+$pageTransition-ease: ease-out;
+
+// ----------------------------
+// COMPONENT VARIABLE OVERRIDES
+// ----------------------------
+
+// siteHead
+$color--logoOnDark: $color-white;
+$color--siteHead: $color-black90;
+$height--siteHead: $space-base * 2.5;
+$height--mobileBtn: $space-base;
+
+// buttons
+// $color--btnPrimary: $color-blue;
+// $color--btnTextPrimary: $color-white;
+// $color--btnSecondary: tint($color-blue, 40%);
+// $color--btnTextSecondary: $color-white;
+// $fontSize--btn: modular-scale(0);
+// $fontSize--btnBig: modular-scale(1);
+// $fontSize--btnSmall: modular-scale(-1);
+// $height--btn: $space-base * 2;
+// $height--btnBig: $space-base * 3;
+// $height--btnSmall: $space-base * 1.5;

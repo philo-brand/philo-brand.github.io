@@ -1,0 +1,60 @@
+{
+  "channels": [
+    {
+      "label": "YouTube",
+      "value": "77%"
+    },
+    {
+      "label": "Netflix",
+      "value": "71%"
+    },
+    {
+      "label": "ABC Family",
+      "value": "48%"
+    },
+    {
+      "label": "Comedy",
+      "value": "42%"
+    },
+    {
+      "label": "HBO",
+      "value": "41%"
+    },
+    {
+      "label": "FX",
+      "value": "40%"
+    },
+    {
+      "label": "TBS",
+      "value": "34%"
+    },
+    {
+      "label": "MTV",
+      "value": "30%"
+    },
+    {
+      "label": "Hulu",
+      "value": "29%"
+    },
+    {
+      "label": "Adult Swim",
+      "value": "29%"
+    },
+    {
+      "label": "CW",
+      "value": "25%"
+    },
+    {
+      "label": "E!",
+      "value": "20%"
+    },
+    {
+      "label": "Vice",
+      "value": "6%"
+    },
+    {
+      "label": "Awesomeness",
+      "value": "4%"
+    }
+  ]
+}
