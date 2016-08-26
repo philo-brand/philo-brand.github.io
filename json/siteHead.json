@@ -1,28 +1,19 @@
 {
   "menu-items": [
     {
-      "label": "Creators",
-      "url": "creators.html"
-    },
-    {
-      "label": "Insights",
-      "url": "insights.html"
-    },
-    {
-      "label": "Our Process",
-      "url": "process.html"
+      "label": "Our Work",
+      "url": "index.html"
     },
     {
       "label": "Our Team",
-      "url": "team.html"
-    },
-    {
-      "label": "Press",
-      "url": "press.html"
+      "url": "index.html"
+    },    {
+      "label": "We're hiring!",
+      "url": "index.html"
     },
     {
       "label": "Contact",
-      "url": "contact.html"
+      "url": "index.html"
     }
   ]
 }

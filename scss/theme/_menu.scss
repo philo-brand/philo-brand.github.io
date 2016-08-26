@@ -50,7 +50,7 @@
   height: $height--siteHead;
   padding: 0 $space-base / 3;
   @include media($mobileMenuBreak) {
-    color: $color-black30;
+    color: $color-body;
     &:focus,
     &:hover {
       color: $color-pink;

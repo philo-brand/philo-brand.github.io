@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Philosophie | Design consulting at startup speed</title>
+    <title>Philosophie | Product consulting at startup speed</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -63,58 +63,66 @@
     </div>
     <div class="u-full">
       <div class="u-outerContainer">
-        <article class="paragraph">
-          <header>
-            <div class="u-row">
-              <h1 class="u-block homeHeader-h1"><span class="js-fitText u-fitText">Design consulting at startup speed</span></h1>
-            </div>
-          </header>
-          <section>
-            <div class="u-row">
-              <p class="subheading">No waste-of-time meetings.<br>
-                No handoffs that will collect dust.<br>
+        <article>
+          <div class="u-row">
+            <header>
+                <h1 class="u-block homeHeader-h1"><span class="js-fitText u-fitText">Product consulting at startup speed</span></h1>
+            </header>
+            <section class="paragraph">
+              <p class="subheading">No waste-of-time meetings. No handoffs that will collect dust.<br>
                 We build and learn fast, with you.
               </p>
-            </div>
-          </section>
+            </section>
+          </div>
         </article>
-<!--         <aside class="paragraph-aside">
-          <img src="img/aw-logo-animated.gif" />
-        </aside> -->
-      </div>
-      <!-- <div class="video">
-        <div class="video-wrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/p1WHpf2K77k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div> -->
-    </div>
-    <div class="u-full">
-      <div class="u-outerContainer--noMargin">
-        <h2>Our Work</h2>
-      </div>
-      <ul class="gridItems--work" id="mustache-ourWork">
-        <script id="mustache-template-ourWork" type="text/template">
-          {{#stories}}
-            <li class="gridItems-item">
-              <div class="gridItems-video">
-                <div class="video-wrapper">
-                  <iframe src="{{video}}" frameborder="0" allowfullscreen></iframe>
+        <article>
+          <div class="u-row">
+            <header>
+              <h2>Collaborate fast</h2>
+            </header>
+            <section class="paragraph--slim">
+              <p>There are no silos here. You're going to work with at least one strategist, designer and engineer. And we don't have meetings. We have actions items. Who has time for anything else?
+            </section>
+          </div>
+        </article>
+        <article class="pullquote">
+          <div class="u-row">
+            <img class="pullquote-img" src="img/photo-po.png" />
+            <p class="pullquote-copy">
+              <span class="pullquote-marks">“</span>
+              I really enjoy the fact that people at Philosophie seem motivated to always learn and get better. It inspires me.
+              <span class="pullquote-marks">”</span>
+              <br><span class="pullquote-byline">John Kwang</span>
+            </p>
+          </div>
+        </article>
+        <article class="caseStudy">
+          <div class="u-row">
+            <h3>How do you make $7.2 million in eight weeks?</h3>
+            <p>75,000 businesses will go out of business this year. Sound scary? When we set out to work with PriceWaterhouseCooper a year ago, we set out to solve that problem.</p>
+          </div>
+        </article>
+        <ul class="gridItems--work" id="mustache-ourWork">
+          <script id="mustache-template-ourWork" type="text/template">
+            {{#stories}}
+              <li class="gridItems-item">
+                <h1 class="gridItems-title">{{title}}</h1>
+                <div class="gridItems-video">
                 </div>
-              </div>
-              <h1 class="gridItems-title">{{title}}</h1>
-              <p class="gridItems-copy">{{{copy}}}</p>
-            </li>
-          {{/stories}}
-        </script>
-      </ul>
+                <p class="gridItems-copy">{{{copy}}}</p>
+              </li>
+            {{/stories}}
+          </script>
+        </ul>
+      </div>
     </div>
-    <div class="u-full--pink u-textCenter">
+<!--     <div class="u-full--pink u-textCenter">
       <div class="u-outerContainer--noMargin">
         <h2 class="u-textTransformNone">Astronauts Wanted</h2>
         <h4 class="u-callout">*No experience necessary</h4>
         <a class="u-full--pink-link" href="contact.html">Contact us today</a>
       </div>
-    </div>
+    </div> -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -129,12 +137,12 @@
     </script>
     <!-- Page specific -->
     <script src="bower_components/FitText.js/jquery.fittext.js"></script>
-    <script>jQuery(".js-fitText").fitText(1.15);</script>
+    <script>jQuery(".js-fitText").fitText();</script>
     <script>
-      $.getJSON('json/ourWork.json', function(data) {
-        var template = $("#mustache-template-ourWork").html();
+      $.getJSON('json/ourContacts.json', function(data) {
+        var template = $("#mustache-template-ourContacts").html();
         var html = Mustache.to_html(template, data);
-        $('#mustache-ourWork').html(html);
+        $('#mustache-ourContacts').html(html);
       });
     </script>
   </body>

@@ -1,8 +1,8 @@
-h1,
-h2 {
-  @extend .font-headingI6;
-  text-transform: uppercase;
+h1 {
+  font-family: $fontFamily-display;
   font-style: italic;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 h2 {
   padding: $space-base * 2 0 0;

@@ -1,5 +1,5 @@
 .siteHead {
-  background-color: $color-egg;
+  // background-color: $color-egg;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,14 +16,9 @@
   padding: 0;
 }
 .siteHead-logoImg {
-  height: 18px;
-  margin-top: 21px;
-  width: 184px;
-  @include media($medium-screen) {
-    height: 24px;
-    margin-top:  18px;
-    width: 240px;
-  }
+  height: 24px;
+  margin-top: 18px;
+  width: auto;
 }
 
 // Mobile view

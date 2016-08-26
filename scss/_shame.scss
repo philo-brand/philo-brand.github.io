@@ -43,7 +43,7 @@ article {
   @extend .u-col12Small, .u-col9Medium, .u-col9Large;
 }
 .paragraph--slim {
-  @extend .u-col12Small, .u-col8Medium, .u-col8Large;
+  @extend .u-col12Small, .u-col8Medium, .u-col6Large;
   max-width: 688px;
   @include media($large-screen) {
     max-width: 1040px;
@@ -239,4 +239,19 @@ article {
     padding-left: 1px;
     padding-right: 1px;
   }
+}
+.pullquote {
+  text-align: center;
+}
+.pullquote-copy {
+  font-size: modular-scale(2);
+  position: relative;
+}
+.pullquote-marks {
+  font-family: $fontFamily-display;
+  font-size: modular-scale(6);
+  position: absolute;
+}
+.pullquote-byline {
+
 }

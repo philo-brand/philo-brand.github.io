@@ -65,15 +65,16 @@ $color-white20: tint($color-gray, 20%);
 $color-white10: tint($color-gray, 10%);
 
 // General theme color applications
-$color-siteBackground: $color-egg;
+$color-siteBackground: $color-white;
 $color-body: $color-black;
 $color-heading: $color-body;
 $color-link: $color-pink;
 $color-linkHover: $color-link;
 
 // Typography and Rhythm
-$fontFamily-body: "mr-eaves-modern", $helvetica;
-$fontFamily-heading: "mr-eaves-xl-modern", $fontFamily-body;
+$fontFamily-body: "mr-eaves-xl-modern", $helvetica;
+$fontFamily-heading: $fontFamily-body;
+$fontFamily-display: "program-narrow", $fontFamily-heading;
 $fontFamily-serif: "mrs-eaves", serif;
 
 // Line heights
