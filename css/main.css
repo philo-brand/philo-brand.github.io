@@ -216,14 +216,14 @@ html {
   .u-pull11Small {
     margin-left: -93.8278472981%; } }
 @media screen and (min-width: 20em) and (max-width: 47.96375em) {
-  .u-col12Small, .collab-imgWrapper, .collab-copy {
+  .u-col12Small, .collab-imgWrapper, .collab-copy, .caseStudy-copy {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 100%; }
-    .u-col12Small:last-child, .collab-imgWrapper:last-child, .collab-copy:last-child {
+    .u-col12Small:last-child, .collab-imgWrapper:last-child, .collab-copy:last-child, .caseStudy-copy:last-child {
       margin-right: 0; }
-    .u-col12Small:nth-child(1n+1), .collab-imgWrapper:nth-child(1n+1), .collab-copy:nth-child(1n+1) {
+    .u-col12Small:nth-child(1n+1), .collab-imgWrapper:nth-child(1n+1), .collab-copy:nth-child(1n+1), .caseStudy-copy:nth-child(1n+1) {
       margin-right: 0; }
 
   .u-push12Small {
@@ -326,12 +326,12 @@ html {
   .u-pull6Medium {
     margin-left: -51.178825799%; } }
 @media screen and (min-width: 48em) and (max-width: 80.02625em) {
-  .u-col7Medium {
+  .u-col7Medium, .caseStudy-copy {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 57.3509785009%; }
-    .u-col7Medium:last-child {
+    .u-col7Medium:last-child, .caseStudy-copy:last-child {
       margin-right: 0; }
 
   .u-push7Medium {
@@ -490,14 +490,14 @@ html {
   .u-pull5Large {
     margin-left: -42.6490214991%; } }
 @media screen and (min-width: 80.0625em) {
-  .u-col6Large, .collab-imgWrapper {
+  .u-col6Large, .collab-imgWrapper, .caseStudy-copy {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 48.821174201%; }
-    .u-col6Large:last-child, .collab-imgWrapper:last-child {
+    .u-col6Large:last-child, .collab-imgWrapper:last-child, .caseStudy-copy:last-child {
       margin-right: 0; }
-    .u-col6Large:nth-child(2n+2), .collab-imgWrapper:nth-child(2n+2) {
+    .u-col6Large:nth-child(2n+2), .collab-imgWrapper:nth-child(2n+2), .caseStudy-copy:nth-child(2n+2) {
       margin-right: 0; }
 
   .u-push6Large {
@@ -597,7 +597,7 @@ html {
 .u-relative {
   position: relative; }
 
-.u-right,
+.u-right, .caseStudy-copy,
 .u-floatRight {
   float: right; }
 
@@ -1749,6 +1749,29 @@ article {
   font-size: 61.03515625px;
   position: absolute; }
 
+.caseStudy-bg {
+  background-image: url(../img/photo-casestudy.jpg);
+  background-size: contain; }
+  @media screen and (min-width: 20em) {
+    .caseStudy-bg {
+      position: relative;
+      left: -24px; } }
+  @media screen and (min-width: 48em) {
+    .caseStudy-bg {
+      left: 0; } }
+
+.caseStudy-copy {
+  background-color: white;
+  position: relative;
+  top: 48px;
+  right: -24px; }
+
 .paper {
-  box-shadow: 12px 12px 48px #f7f6ed, 0px 0px 24px #f7f6ed;
+  box-shadow: 8px 8px 32px #f7f6ed;
   padding: 48px; }
+
+.overline {
+  margin-bottom: -36px;
+  margin-top: 48px;
+  padding-top: 48px;
+  width: 72px; }
