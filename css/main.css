@@ -518,12 +518,12 @@ html {
   .u-pull7Large {
     margin-left: -59.7086300988%; } }
 @media screen and (min-width: 80.0625em) {
-  .u-col8Large {
+  .u-col8Large, .pullquote-copy {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 65.8807828007%; }
-    .u-col8Large:last-child {
+    .u-col8Large:last-child, .pullquote-copy:last-child {
       margin-right: 0; }
 
   .u-push8Large {
@@ -1902,14 +1902,22 @@ article {
   @media screen and (min-width: 48em) {
     .pullquote-copy {
       margin-left: 25.5894128995%; } }
+  @media screen and (min-width: 80.0625em) {
+    .pullquote-copy {
+      margin-left: 8.5298042998%; } }
 
 .pullquote-marks {
   font-family: "program-narrow", "mr-eaves-xl-modern", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 500px;
   position: absolute;
   color: #F1E61E;
-  top: -230px;
-  left: 12%; }
+  top: -230px; }
+  @media screen and (min-width: 48em) {
+    .pullquote-marks {
+      left: 12%; } }
+  @media screen and (min-width: 80.0625em) {
+    .pullquote-marks {
+      left: -5%; } }
 
 .pullquote-byline {
   display: block;
@@ -1920,6 +1928,9 @@ article {
   @media screen and (min-width: 48em) {
     .pullquote-img {
       margin-top: 96px; } }
+  @media screen and (min-width: 80.0625em) {
+    .pullquote-img {
+      margin-top: 48px; } }
 
 .caseStudy-bg {
   background-image: url(../img/photo-casestudy.jpg);

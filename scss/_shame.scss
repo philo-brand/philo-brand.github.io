@@ -93,11 +93,14 @@ article {
 .pullquote-copy {
   font-size: modular-scale(2);
   position: relative;
-  @extend .u-col12Small, .u-col6Medium;
+  @extend .u-col12Small, .u-col6Medium, .u-col8Large;
   z-index: $zIndex-1;
   display: block;
   @include media($medium-screen) {
     @include shift(3);
+  }
+  @include media($large-screen) {
+    @include shift(1);
   }
 }
 .pullquote-marks {
@@ -106,7 +109,12 @@ article {
   position: absolute;
   color: #F1E61E;
   top: -230px;
-  left: 12%;
+  @include media($medium-screen) {
+    left: 12%;
+  }
+  @include media($large-screen) {
+    left: -5%;
+  }
 }
 .pullquote-byline {
   display: block;
@@ -117,6 +125,9 @@ article {
   max-width: modular-scale(10);
   @include media($medium-screen) {
     margin-top: $space-base *4;
+  }
+  @include media($large-screen) {
+    margin-top: $space-base *2;
   }
 }
 .caseStudy-bg {
