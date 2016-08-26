@@ -1624,6 +1624,39 @@ a {
     .bubble-quote {
       font-size: 31.25px; } }
 
+.confetti-piece {
+  position: absolute;
+  z-index: 300;
+  mix-blend-mode: multiply; }
+
+.piece--ne {
+  right: -16%;
+  top: 4%; }
+  @media screen and (min-width: 48em) {
+    .piece--ne {
+      right: 3%;
+      top: 4%; } }
+
+.piece--se {
+  right: 0;
+  top: 20%; }
+  @media screen and (min-width: 48em) {
+    .piece--se {
+      right: 21%;
+      top: 25%; } }
+
+.piece--nw {
+  left: -5%;
+  top: 13%; }
+  @media screen and (min-width: 48em) {
+    .piece--nw {
+      left: 3%;
+      top: 7.5%; } }
+
+.piece--n {
+  left: 45%;
+  top: 0.5%; }
+
 html {
   height: 100%; }
 
