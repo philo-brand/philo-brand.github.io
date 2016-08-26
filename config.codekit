@@ -1690,50 +1690,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/blob-philosopher--green.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 109863,
-		"inputAbbreviatedPath": "\/img\/blob-philosopher--green.png",
-		"outputAbbreviatedPath": "\/img\/blob-philosopher--green.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/blob-philosopher--pink.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 120239,
-		"inputAbbreviatedPath": "\/img\/blob-philosopher--pink.png",
-		"outputAbbreviatedPath": "\/img\/blob-philosopher--pink.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/blob-philosophier--purple.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 101087,
-		"inputAbbreviatedPath": "\/img\/blob-philosophier--purple.png",
-		"outputAbbreviatedPath": "\/img\/blob-philosophier--purple.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/blob-po.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 496049,
-		"inputAbbreviatedPath": "\/img\/blob-po.png",
-		"outputAbbreviatedPath": "\/img\/blob-po.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/circle-gold.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1745,13 +1701,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/idea.png": {
+	"\/img\/collaborate.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 361182,
-		"inputAbbreviatedPath": "\/img\/idea.png",
-		"outputAbbreviatedPath": "\/img\/idea.png",
+		"initialSize": 1.22177e+06,
+		"inputAbbreviatedPath": "\/img\/collaborate.png",
+		"outputAbbreviatedPath": "\/img\/collaborate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/outreach-hiring.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70898,
+		"inputAbbreviatedPath": "\/img\/outreach-hiring.png",
+		"outputAbbreviatedPath": "\/img\/outreach-hiring.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/outreach-hungry.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 316140,
+		"inputAbbreviatedPath": "\/img\/outreach-hungry.png",
+		"outputAbbreviatedPath": "\/img\/outreach-hungry.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/outreach-local.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36871,
+		"inputAbbreviatedPath": "\/img\/outreach-local.png",
+		"outputAbbreviatedPath": "\/img\/outreach-local.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1767,6 +1756,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/photo-medium-composer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 982097,
+		"inputAbbreviatedPath": "\/img\/photo-medium-composer.png",
+		"outputAbbreviatedPath": "\/img\/photo-medium-composer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/photo-medium-creep.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.20623e+06,
+		"inputAbbreviatedPath": "\/img\/photo-medium-creep.png",
+		"outputAbbreviatedPath": "\/img\/photo-medium-creep.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/photo-po.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1774,6 +1785,17 @@
 		"initialSize": 248489,
 		"inputAbbreviatedPath": "\/img\/photo-po.png",
 		"outputAbbreviatedPath": "\/img\/photo-po.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/screenshot-dotvoter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59538,
+		"inputAbbreviatedPath": "\/img\/screenshot-dotvoter.png",
+		"outputAbbreviatedPath": "\/img\/screenshot-dotvoter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

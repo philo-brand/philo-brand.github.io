@@ -59,68 +59,6 @@ article {
 .u-full {
   padding: $space-base * 2 0;
 }
-.u-full:nth-of-type(even) {
-  background-color: $color-siteBackground;
-}
-.u-full:nth-of-type(odd) {
-  background-color: $color-white;
-  margin-top: $space-base * 2;
-  position: relative;
-}
-.u-full:nth-of-type(odd):not(.u-stardustify):before {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: $space-base * 2 1920px 0px 0;
-  border-color: transparent $color-white transparent transparent;
-  content:'';
-  position: absolute;
-  right: 0;
-  top: -$space-base * 2;
-}
-.u-full:nth-of-type(odd):after {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: $space-base * 2 1920px 0px 0;
-  border-color: transparent $color-siteBackground transparent transparent;
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0px;
-}
-.u-full--pink {
-  @extend .u-full;
-  background-color: $color-pink !important;
-  bottom: 0;
-  position: relative;
-}
-.u-full:nth-of-type(odd) + .u-full--pink:before {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: $space-base * 2 1920px 0px 0;
-  border-color: transparent $color-pink transparent transparent !important;
-  content: '';
-  position: absolute;
-  right: 0;
-  top: -$space-base * 2;
-  z-index: $zIndex-2;
-}
-.u-full:nth-of-type(even) + .u-full--pink:before {
-  border-color: transparent $color-pink transparent transparent !important;
-}
-.u-full--pink:after {
-  border-color: $color-pink !important;
-  z-index: -1;
-}
-.u-full--pink .u-full--pink-link {
-  color: $color-pinkShade;
-  &:focus,
-  &:hover {
-    border-color: $color-pinkShade;
-  }
-}
 .homeHeader-h1 {
   font-size: modular-scale(2);
   @include media($medium-screen) {
@@ -130,114 +68,33 @@ article {
     font-size: modular-scale(5);
   }
 }
-
-// PRESS
-.press-link {
-  @include transition(background-color $transition-time $transition-ease);
-  background-color: $color-siteBackground;
-  border: solid $color-midnight;
-  border-width: 0 0 0 $space-base;
-  color: $color-midnightTint;
-  display: block;
-  padding: $space-base * 2 0 $space-base;
+.collab {
+  margin: 0 $space-base;
+  position: relative;
+}
+.collab-imgWrapper {
+ @extend .u-col12Small, .u-col5Medium, .u-col6Large;
+}
+.collab-img {
+  margin-top: $space-base *-6;
+  position: relative;
+  left: 67.5%;
+  width: 37.5%;
+  z-index: $zIndex-0;
   @include media($medium-screen) {
-    padding-bottom: 0;
-    &:focus,
-    &:hover {
-      background-color: $color-midnight;
-      border-color: $color-midnight;
-      .press-date {
-        color: $color-midnightShade;
-      }
-    }
-  }
-}
-.press-date {
-  @include transition(color $transition-time $transition-ease);
-  text-transform: uppercase;
-}
-.press-headline,
-.press-date {
-  margin-bottom: $space-base / 3;
-}
-.press-readItNow {
-  color: $color-gray;
-  @include media($medium-screen) {
-    color: $color-siteBackground;
-  }
-}
-.press-item:nth-of-type(even) {
-  .press-link {
-    background-color: $color-black80;
-    border-color: $color-pink;
-    @include media($medium-screen) {
-      &:focus,
-      &:hover {
-        background-color: $color-pink;
-
-        .press-date {
-          color: $color-pinkShade;
-        }
-      }
-    }
-  }
-  .press-readItNow {
-    @include media($medium-screen) {
-      color: $color-black80;
-    }
-  }
-  .press-date {
-    color: $color-pinkTint;
-  }
-}
-.u-stardustify {
-  background-image: url(../img/stardust.png);
-  @include media($medium-screen) {
-    background-attachment: fixed;
-  }
-}
-
-// Creators
-.creators-list {
-  @include media($medium-screen) {
-    margin-left: 4px;
-  }
-}
-.creators-aside {
-  @extend .u-col12Small, .u-col4Medium, .u-col3Large, .u-marginLead;
-  margin-bottom: $space-base;
-  margin-top: $space-base * -3;
-  @include media($medium-screen) {
-    margin-bottom: 0;
+    left: 18.75%;
     margin-top: 0;
-  }
-}
-.creators-section {
-  @extend .u-outerContainer--noMargin;
-  @include media($medium-screen) {
-    @include span-columns(8);
+    width: 75%;
   }
   @include media($large-screen) {
-    @include span-columns(7);
+    left: 25%;
+    width: 68.75%;
   }
 }
-.creators-item {
-  display: inline-block;
-  width: 32.5%;
-  @include media($medium-screen) {
-    width: 32%
-  }
-  @include media($large-screen) {
-    width: 32.5%;
-  }
-}
-.creators-img {
-  padding: 0 2px;
-  width: 100%;
-  height: auto;
-  @include media($medium-screen) {
-    padding-left: 1px;
-    padding-right: 1px;
+.collab-copy {
+  @extend .u-col12Small, .u-col6Medium, .u-col5Large;
+  @include media($small-screen) {
+    margin-top: $space-base *-4;
   }
 }
 .pullquote {
