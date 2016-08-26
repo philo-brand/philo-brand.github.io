@@ -382,12 +382,12 @@ html {
   .u-pull10Medium {
     margin-left: -85.2980429983%; } }
 @media screen and (min-width: 48em) and (max-width: 80.02625em) {
-  .u-col11Medium, .paragraph {
+  .u-col11Medium {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 91.4701957002%; }
-    .u-col11Medium:last-child, .paragraph:last-child {
+    .u-col11Medium:last-child {
       margin-right: 0; }
 
   .u-push11Medium {
@@ -1748,3 +1748,7 @@ article {
   font-family: "program-narrow", "mr-eaves-xl-modern", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 61.03515625px;
   position: absolute; }
+
+.paper {
+  box-shadow: 12px 12px 48px #f7f6ed, 0px 0px 24px #f7f6ed;
+  padding: 48px; }
