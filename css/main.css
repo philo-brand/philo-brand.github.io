@@ -382,12 +382,12 @@ html {
   .u-pull10Medium {
     margin-left: -85.2980429983%; } }
 @media screen and (min-width: 48em) and (max-width: 80.02625em) {
-  .u-col11Medium {
+  .u-col11Medium, .paragraph {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 91.4701957002%; }
-    .u-col11Medium:last-child {
+    .u-col11Medium:last-child, .paragraph:last-child {
       margin-right: 0; }
 
   .u-push11Medium {
@@ -1725,11 +1725,12 @@ article {
   @media screen and (min-width: 48em) {
     .collab-img {
       left: 18.75%;
-      margin-top: 0;
+      margin-top: -48px;
       width: 75%; } }
   @media screen and (min-width: 80.0625em) {
     .collab-img {
       left: 25%;
+      margin-top: 0;
       width: 68.75%; } }
 
 @media screen and (min-width: 20em) {

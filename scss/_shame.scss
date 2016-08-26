@@ -66,11 +66,12 @@ article {
   z-index: $zIndex-0;
   @include media($medium-screen) {
     left: 18.75%;
-    margin-top: 0;
+    margin-top: $space-base *-2;
     width: 75%;
   }
   @include media($large-screen) {
     left: 25%;
+    margin-top: 0;
     width: 68.75%;
   }
 }
