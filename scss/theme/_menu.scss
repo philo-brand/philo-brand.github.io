@@ -44,7 +44,7 @@
 }
 .menu-itemLink {
   @extend .font-bodyN5;
-  @include transition(background-color $transition-time $transition-ease, color $transition-time $transition-ease);
+  @include transition(transform $transition-time $transition-ease, background-color $transition-time $transition-ease, color $transition-time $transition-ease);
   border: none;
   display: block;
   height: $height--siteHead;
@@ -54,6 +54,10 @@
     &:focus,
     &:hover {
       color: $color-pink;
+      transform: rotate(-5deg);
     }
   }
+}
+.menu-itemLink--callout {
+  color: $color-pink;
 }
