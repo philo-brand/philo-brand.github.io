@@ -1,0 +1,18 @@
+{
+  "stories": [
+    {
+      "title": "We Still Need Coders and Composers",
+      "byline": "Kohei Hikasuki",
+      "excerpt": "The Philosopher's Stone is a legendary substance used by alchemists to turn anything ...",
+      "img": "",
+      "btnLabel": "Code and Compose"
+    },
+    {
+      "title": "How To Ease Scope Creep On A Balanced Team",
+      "byline": "Brooke Kao",
+      "excerpt": "",
+      "img": "",
+      "btnLabel": "Ease the creep"
+    }
+  ]
+}

@@ -60,6 +60,12 @@
         </nav>
       </div>
     </div>
+    <div class="confetti-wrapper">
+      <img class="confetti-piece piece--ne" src="img/bar-blue.png" width="148" />
+      <img class="confetti-piece piece--n" src="img/bar-yellow.png" width="57" />
+      <img class="confetti-piece piece--se" src="img/triangle-blue.png" width="72" />
+      <img class="confetti-piece piece--nw" src="img/circle-gold.png" width="62" />
+    </div>
     <div class="u-full">
       <div class="u-outerContainer u-textCenter">
         <article>
@@ -110,36 +116,23 @@
             </div>
           </div>
         </article>
-        <ul class="gridItems--work" id="mustache-ourWork">
+        <ul id="mustache-ourWork">
           <script id="mustache-template-ourWork" type="text/template">
             {{#stories}}
-              <li class="gridItems-item">
-                <h1 class="gridItems-title">{{title}}</h1>
-                <div class="gridItems-video">
-                </div>
-                <p class="gridItems-copy">{{{copy}}}</p>
+              <li class="paper">
+                <h4>{{title}}</h4>
+                <p>
+                  <em>by {{{byline}}}</em>
+                  <br>
+                  {{{excerpt}}}
+                </p>
+                <a class="btn btn--secondary">{{{btnLabel}}}</a>
               </li>
             {{/stories}}
           </script>
         </ul>
       </div>
     </div>
-
-    <div class="confetti-wrapper">
-        ohai
-        <img class="confetti-piece piece--ne" src="img/bar-blue.png" width="148" />
-        <img class="confetti-piece piece--n" src="img/bar-yellow.png" width="57" />
-        <img class="confetti-piece piece--se" src="img/triangle-blue.png" width="72" />
-        <img class="confetti-piece piece--nw" src="img/circle-gold.png" width="62" />
-    </div>
-<!--     <div class="u-full--pink u-textCenter">
-      <div class="u-outerContainer--noMargin">
-        <h2 class="u-textTransformNone">Astronauts Wanted</h2>
-        <h4 class="u-callout">*No experience necessary</h4>
-        <a class="u-full--pink-link" href="contact.html">Contact us today</a>
-      </div>
-    </div> -->
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/main.js"></script>
@@ -155,10 +148,10 @@
     <script src="bower_components/FitText.js/jquery.fittext.js"></script>
     <script>jQuery(".js-fitText").fitText();</script>
     <script>
-      $.getJSON('json/ourContacts.json', function(data) {
-        var template = $("#mustache-template-ourContacts").html();
+      $.getJSON('json/ourWork.json', function(data) {
+        var template = $("#mustache-template-ourWork").html();
         var html = Mustache.to_html(template, data);
-        $('#mustache-ourContacts').html(html);
+        $('#mustache-ourWork').html(html);
       });
     </script>
   </body>
