@@ -1464,9 +1464,9 @@ a {
   border-top: solid 1px white; }
 
 .menu-itemLink {
-  -webkit-transition: background-color 200ms linear, color 200ms linear;
-  -moz-transition: background-color 200ms linear, color 200ms linear;
-  transition: background-color 200ms linear, color 200ms linear;
+  -webkit-transition: -webkit-transform 200ms linear, background-color 200ms linear, color 200ms linear;
+  -moz-transition: -moz-transform 200ms linear, background-color 200ms linear, color 200ms linear;
+  transition: transform 200ms linear, background-color 200ms linear, color 200ms linear;
   border: none;
   display: block;
   height: 60px;
@@ -1475,7 +1475,11 @@ a {
     .menu-itemLink {
       color: black; }
       .menu-itemLink:focus, .menu-itemLink:hover {
-        color: #e4285e; } }
+        color: #e4285e;
+        transform: rotate(-5deg); } }
+
+.menu-itemLink--callout {
+  color: #e4285e; }
 
 .video {
   max-height: none; }
