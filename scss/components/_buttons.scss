@@ -1,7 +1,7 @@
-$color--btnPrimary: $color-blue !default;
+$color--btnPrimary: $color-pink !default;
 $color--btnTextPrimary: $color-white;
-$color--btnSecondary: tint($color-blue, 40%) !default;
-$color--btnTextSecondary: $color-white !default;
+$color--btnSecondary: $color-white !default;
+$color--btnTextSecondary: $color-pink !default;
 $fontSize--btn: modular-scale(0) !default;
 $fontSize--btnBig: modular-scale(1) !default;
 $fontSize--btnSmall: modular-scale(-1) !default;

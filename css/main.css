@@ -610,7 +610,9 @@ html {
   content: "";
   display: table; }
 
-.u-textCenter {
+.u-textCenter, .btn--center,
+button.btn--center,
+input[type="submit"].btn--center {
   text-align: center; }
 
 .u-textLeft {
@@ -724,6 +726,134 @@ tr,
 td,
 th {
   vertical-align: middle; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"],
+button,
+.btn,
+.btn--secondary,
+button.btn--secondary,
+input[type="submit"].btn--secondary,
+.btn--center,
+button.btn--center,
+input[type="submit"].btn--center,
+.btn--big,
+button.btn--big,
+input[type="submit"].btn--big,
+.btn--small,
+button.btn--small,
+input[type="submit"].btn--small,
+.btn--wide,
+button.btn--wide,
+input[type="submit"].btn--wide {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-transition: background-color 200ms linear, color 200ms linear;
+  -moz-transition: background-color 200ms linear, color 200ms linear;
+  transition: background-color 200ms linear, color 200ms linear;
+  -webkit-font-smoothing: antialiased;
+  background-color: #e4285e;
+  border-radius: 1px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "mr-eaves-xl-modern", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  margin-bottom: 12px;
+  padding: 0 24px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+  button:hover,
+  button:focus,
+  .btn:hover,
+  .btn--secondary:hover,
+  input[type="submit"].btn--secondary:hover,
+  .btn--center:hover,
+  input[type="submit"].btn--center:hover,
+  .btn--big:hover,
+  input[type="submit"].btn--big:hover,
+  .btn--small:hover,
+  input[type="submit"].btn--small:hover,
+  .btn--wide:hover,
+  input[type="submit"].btn--wide:hover,
+  .btn:focus,
+  .btn--secondary:focus,
+  input[type="submit"].btn--secondary:focus,
+  .btn--center:focus,
+  input[type="submit"].btn--center:focus,
+  .btn--big:focus,
+  input[type="submit"].btn--big:focus,
+  .btn--small:focus,
+  input[type="submit"].btn--small:focus,
+  .btn--wide:focus,
+  input[type="submit"].btn--wide:focus {
+    background-color: #d71b51;
+    color: white; }
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+  button:disabled,
+  .btn:disabled,
+  .btn--secondary:disabled,
+  input[type="submit"].btn--secondary:disabled,
+  .btn--center:disabled,
+  input[type="submit"].btn--center:disabled,
+  .btn--big:disabled,
+  input[type="submit"].btn--big:disabled,
+  .btn--small:disabled,
+  input[type="submit"].btn--small:disabled,
+  .btn--wide:disabled,
+  input[type="submit"].btn--wide:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+.btn--secondary,
+button.btn--secondary,
+input[type="submit"].btn--secondary {
+  background-color: white;
+  color: #e4285e; }
+  .btn--secondary:hover, .btn--secondary:focus,
+  button.btn--secondary:hover,
+  button.btn--secondary:focus,
+  input[type="submit"].btn--secondary:hover,
+  input[type="submit"].btn--secondary:focus {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    color: #e4285e; }
+
+.btn--center,
+button.btn--center,
+input[type="submit"].btn--center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.btn--big,
+button.btn--big,
+input[type="submit"].btn--big {
+  font-size: 20px;
+  height: 72px;
+  line-height: 72px;
+  padding: 0 48px; }
+
+.btn--small,
+button.btn--small,
+input[type="submit"].btn--small {
+  font-size: 12.8px;
+  padding: 0 12px; }
+
+.btn--wide,
+button.btn--wide,
+input[type="submit"].btn--wide {
+  width: 100%; }
 
 .menu, .menu--right {
   float: none;
@@ -931,7 +1061,23 @@ th {
   font-style: italic;
   font-weight: 500; }
 
-.font-bodyN6, strong,
+.font-bodyN6, button, input[type="button"], input[type="reset"], input[type="submit"],
+.btn,
+.btn--secondary,
+button.btn--secondary,
+input[type="submit"].btn--secondary,
+.btn--center,
+button.btn--center,
+input[type="submit"].btn--center,
+.btn--big,
+button.btn--big,
+input[type="submit"].btn--big,
+.btn--small,
+button.btn--small,
+input[type="submit"].btn--small,
+.btn--wide,
+button.btn--wide,
+input[type="submit"].btn--wide, strong,
 b, .siteHead-mobileMenuBtn, .barGraph, .barGraph--withNegative {
   font-family: "mr-eaves-xl-modern", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-style: normal;
