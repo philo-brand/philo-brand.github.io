@@ -112,10 +112,10 @@ article {
   background-color: $color-siteBackground;
   position: relative;
   top: $space-base *2;
-  right: $space-base *-1;
+  right: $space-base *-2;
 }
 .paper {
-  box-shadow: 8px 8px 32px $color-gray;
+  box-shadow: 8px 8px 32px $color-black10;
   padding: $space-base *2;
 }
 .overline {

@@ -44,15 +44,15 @@ $color-blueShade: shade($color-blue, 50%);
 
 // Reusable Tints and Shades
 $color-black: rgb(0, 0, 0);
-$color-black90: shade($color-grayDark, 90%);
-$color-black80: shade($color-grayDark, 80%);
-$color-black70: shade($color-grayDark, 70%);
-$color-black60: shade($color-grayDark, 60%);
-$color-black50: shade($color-grayDark, 50%);
-$color-black40: shade($color-grayDark, 40%);
-$color-black30: shade($color-grayDark, 30%);
-$color-black20: shade($color-grayDark, 20%);
-$color-black10: shade($color-grayDark, 10%);
+$color-black90: shade($color-gray, 90%);
+$color-black80: shade($color-gray, 80%);
+$color-black70: shade($color-gray, 70%);
+$color-black60: shade($color-gray, 60%);
+$color-black50: shade($color-gray, 50%);
+$color-black40: shade($color-gray, 40%);
+$color-black30: shade($color-gray, 30%);
+$color-black20: shade($color-gray, 20%);
+$color-black10: shade($color-gray, 10%);
 $color-white: rgb(255,255,255);
 $color-white90: tint($color-gray, 90%);
 $color-white80: tint($color-gray, 80%);

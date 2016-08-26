@@ -1446,7 +1446,7 @@ a {
   display: block; }
 
 .menu-listItem {
-  background-color: #554e35;
+  background-color: #63625f;
   border-bottom: solid 1px white;
   display: block;
   padding: 0;
@@ -1611,7 +1611,7 @@ a {
       height: 48px; } }
 
 .barGraph-value {
-  color: rgba(21, 19, 13, 0.65);
+  color: rgba(25, 25, 24, 0.65);
   font-size: 12.8px;
   line-height: 36px;
   position: absolute;
@@ -1708,9 +1708,9 @@ a {
     .bubble:last-of-type {
       padding-top: 0; } }
   .bubble:last-of-type .bubble-p {
-    color: rgba(21, 19, 13, 0.8); }
+    color: rgba(25, 25, 24, 0.8); }
   .bubble:last-of-type .bubble-quote {
-    color: rgba(21, 19, 13, 0.8); }
+    color: rgba(25, 25, 24, 0.8); }
 
 .bubble-content {
   padding: 54px 30px;
@@ -1910,10 +1910,10 @@ article {
   background-color: white;
   position: relative;
   top: 48px;
-  right: -24px; }
+  right: -48px; }
 
 .paper {
-  box-shadow: 8px 8px 32px #f7f6ed;
+  box-shadow: 8px 8px 32px #deddd5;
   padding: 48px; }
 
 .overline {
