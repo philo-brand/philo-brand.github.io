@@ -63,7 +63,7 @@ article {
   background-color: $color-siteBackground;
 }
 .u-full:nth-of-type(odd) {
-  background-color: $color-black80;
+  background-color: $color-white;
   margin-top: $space-base * 2;
   position: relative;
 }
@@ -72,7 +72,7 @@ article {
   height: 0;
   border-style: solid;
   border-width: $space-base * 2 1920px 0px 0;
-  border-color: transparent $color-black80 transparent transparent;
+  border-color: transparent $color-white transparent transparent;
   content:'';
   position: absolute;
   right: 0;

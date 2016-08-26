@@ -21,6 +21,7 @@ $large-screen-up: new-breakpoint(min-width $large-screen);
 $mobileMenuBreak: 1024px;
 
 // Brand Palette
+$color-egg: rgb(247, 246, 237);
 $color-midnight: rgb(23, 22, 57);
 $color-midnightTint: tint($color-midnight, 50%);
 $color-midnightShade: shade($color-midnight, 50%);
@@ -35,8 +36,8 @@ $color-goldTint: tint($color-gold, 50%);
 $color-goldShade: shade($color-gold, 50%);
 
 // Unused
-$color-gray: $color-gold;
-$color-grayDark: $color-midnight;
+$color-gray: $color-egg;
+$color-grayDark: $color-gold;
 $color-blue: rgb(0, 91, 255);
 $color-blueTint: tint($color-blue, 50%);
 $color-blueShade: shade($color-blue, 50%);
@@ -52,7 +53,7 @@ $color-black40: shade($color-grayDark, 40%);
 $color-black30: shade($color-grayDark, 30%);
 $color-black20: shade($color-grayDark, 20%);
 $color-black10: shade($color-grayDark, 10%);
-$color-white: rgb(247, 246, 237);
+$color-white: rgb(255,255,255);
 $color-white90: tint($color-gray, 90%);
 $color-white80: tint($color-gray, 80%);
 $color-white70: tint($color-gray, 70%);
@@ -64,7 +65,7 @@ $color-white20: tint($color-gray, 20%);
 $color-white10: tint($color-gray, 10%);
 
 // General theme color applications
-$color-siteBackground: $color-white;
+$color-siteBackground: $color-egg;
 $color-body: $color-black;
 $color-heading: $color-body;
 $color-link: $color-pink;
