@@ -17,19 +17,19 @@
   right: 0;
   top: 20%;
   @include media($medium-screen-up) {
-    right: 21%;
-    top: 25%;
+    right: 20%;
+    top: 22%;
   }
 }
 .piece--nw {
   left: -5%;
   top: 13%;
   @include media($medium-screen-up) {
-    left: 3%;
-    top: 7.5%;
+    left: 4%;
+    top: 9%;
   }
 }
 .piece--n {
-  left: 45%;
+  left: 50%;
   top: 0.5%;
 }

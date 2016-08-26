@@ -39,23 +39,6 @@ footer {
 article {
   margin-top: $space-base;
 }
-.paragraph {
-  @extend .u-col12Small, .u-col9Medium, .u-col9Large;
-}
-.paragraph--slim {
-  @extend .u-col12Small, .u-col8Medium, .u-col6Large;
-  max-width: 688px;
-  @include media($large-screen) {
-    max-width: 1040px;
-  }
-}
-.paragraph-aside {
-  @extend .u-col12Small, .u-col3Medium, .u-push1Medium, .u-col3Large, .u-push1Large;
-  display: none;
-  @include media($medium-screen) {
-    display: block;
-  }
-}
 .u-full {
   padding: $space-base * 2 0;
 }

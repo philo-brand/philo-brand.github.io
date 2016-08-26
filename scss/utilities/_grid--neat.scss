@@ -4,8 +4,8 @@
   margin: modular-scale(4) auto;
   padding: 0 $space-base * .75;
   @include media($medium-screen-up) {
-    margin-top: modular-scale(5);
-    margin-bottom: modular-scale(5);
+    margin-top: modular-scale(7);
+    margin-bottom: modular-scale(7);
     padding-right: $space-base;
     padding-left: $space-base;
   }
