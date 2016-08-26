@@ -44,7 +44,7 @@
     <div class="siteHead" role="banner">
       <div class="siteHead-wrapper">
         <a href="index.html" class="siteHead-logo">
-          <img class="siteHead-logoImg" src="img/philosophie-logo.svg" alt="Astronauts Wanted Logo" width="320" />
+          <img class="siteHead-logoImg" src="img/philosophie-logo.svg" alt="Astronauts Wanted Logo" width="320">
         </a>
         <a href="javascript:void(0)" class="siteHead-mobileMenuBtn js-mobileMenuBtn">Menu</a>
         <nav class="menu--right" role="navigation">
@@ -84,10 +84,10 @@
       <article class="collab">
         <div class="u-row">
           <section class="collab-imgWrapper">
-            <img class="collab-img" src="img/collaborate.png" />
+            <img class="collab-img" src="img/collaborate.png">
           </section>
           <section class="collab-copy">
-            <img class="overline" src="img/overline.png" />
+            <img class="overline" src="img/overline.png">
             <h2>Experiment and launch fast</h2>
             <p>There are no silos here. You're going to work with at least one strategist, designer and engineer. And we don't have meetings. We have actions items. Who has time for anything else?</p>
             <a class="btn">Talk to us</a>
@@ -97,7 +97,7 @@
       <div class="u-outerContainer">
         <article class="pullquote">
           <div class="u-row">
-            <img class="pullquote-img" src="img/photo-po.png" />
+            <img class="pullquote-img" src="img/photo-po.png">
             <p class="pullquote-copy">
               <span class="pullquote-marks">“</span>
               I really enjoy the fact that people at Philosophie seem motivated to always learn and get better. It inspires me.
@@ -111,25 +111,30 @@
             <div class="paper caseStudy-copy">
               <h4>How do you make $7.2 million in eight weeks?</h4>
               <p>75,000 businesses will go out of business this year. Sound scary? When we set out to work with PriceWaterhouseCooper a year ago, we set out to solve that problem.</p>
-              <a class="btn" href="#">Read more</a>
+              <a class="btn" href="#">Prove It</a>
               <a class="btn btn--secondary" href="#">See All Case Studies</a>
             </div>
           </div>
         </article>
-        <ul id="mustache-ourWork">
-          <script id="mustache-template-ourWork" type="text/template">
-            {{#stories}}
-              <li class="paper">
-                <h4>{{title}}</h4>
-                <p>
-                  <em>by {{{byline}}}</em>
-                  <br>
-                  {{{excerpt}}}
-                </p>
-                <a class="btn btn--secondary">{{{btnLabel}}}</a>
-              </li>
-            {{/stories}}
-          </script>
+        <ul class="ourWork">
+          <li class="paper ourWork-item">
+            <img src="img/photo-medium-composer.png">
+            <div class="ourWork-copy">
+              <h5 class="ourWork-title">We Still Need Coders and Composers</h5>
+              <em class="ourWork-byline">by Kohei Hikasuki</em>
+              <p>The Philosopher's Stone is a legendary substance used by alchemists to turn anything ...</p>
+              <a class="ourWork-btn btn btn--secondary">Code and Compose</a>
+            </div>
+          </li>
+          <li class="paper ourWork-item">
+            <img src="img/photo-medium-creep.png">
+            <div class="ourWork-copy">
+              <h5 class="ourWork-title">How To Ease Scope Creep On A Balanced Team</h5>
+              <em class="ourWork-byline">by Brooke Kao</em>
+              <p>Our team has been using Trello as our product management tool of choice for the past year ...</p>
+              <a class="ourWork-btn btn btn--secondary">Ease the Creep</a>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
@@ -147,12 +152,5 @@
     <!-- Page specific -->
     <script src="bower_components/FitText.js/jquery.fittext.js"></script>
     <script>jQuery(".js-fitText").fitText();</script>
-    <script>
-      $.getJSON('json/ourWork.json', function(data) {
-        var template = $("#mustache-template-ourWork").html();
-        var html = Mustache.to_html(template, data);
-        $('#mustache-ourWork').html(html);
-      });
-    </script>
   </body>
 </html>

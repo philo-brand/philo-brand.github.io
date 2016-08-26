@@ -110,17 +110,37 @@ article {
 .caseStudy-copy {
   @extend .u-col12Small, .u-col7Medium, .u-col6Large, .u-right;
   background-color: $color-siteBackground;
+  padding: $space-base *2;
   position: relative;
   top: $space-base *2;
   right: $space-base *-2;
 }
 .paper {
   box-shadow: 8px 8px 32px $color-black10;
-  padding: $space-base *2;
 }
 .overline {
   margin-bottom: $space-base *-1.5;
   margin-top: $space-base *2;
   padding-top: $space-base *2;
   width: $space-base *3;
+}
+.ourWork {
+  margin-top: $space-base *4;
+}
+.ourWork-item {
+  @extend .u-col12Small, .u-col6Medium, .u-col6Large;
+  margin-bottom: $space-base;
+}
+.ourWork-copy {
+  padding: 0 $space-base *2;
+}
+.ourWork-title {
+  margin-top: $space-base;
+}
+.ourWork-byline {
+  display: block;
+  margin: $space-base /-2 0 $space-base /2;
+}
+.ourWork-btn {
+  margin-left: $space-base *-1;
 }
