@@ -82,19 +82,42 @@ article {
   }
 }
 .pullquote {
-  text-align: center;
+  position: relative;
+  margin-bottom: $space-base *2;
+  margin-top: $space-base *4;
+  @include media($medium-screen) {
+    margin-bottom: $space-base *3;
+    margin-top: $space-base *5;
+  }
 }
 .pullquote-copy {
   font-size: modular-scale(2);
   position: relative;
+  @extend .u-col12Small, .u-col6Medium;
+  z-index: $zIndex-1;
+  display: block;
+  @include media($medium-screen) {
+    @include shift(3);
+  }
 }
 .pullquote-marks {
   font-family: $fontFamily-display;
-  font-size: modular-scale(6);
+  font-size: 500px;
   position: absolute;
+  color: #F1E61E;
+  top: -230px;
+  left: 12%;
 }
 .pullquote-byline {
-
+  display: block;
+  font-size: modular-scale(1);
+  @extend .u-col12Small;
+}
+.pullquote-img {
+  max-width: modular-scale(10);
+  @include media($medium-screen) {
+    margin-top: $space-base *4;
+  }
 }
 .caseStudy-bg {
   background-image: url(../img/photo-casestudy.jpg);

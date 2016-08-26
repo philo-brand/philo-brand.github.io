@@ -216,14 +216,14 @@ html {
   .u-pull11Small {
     margin-left: -93.8278472981%; } }
 @media screen and (min-width: 20em) and (max-width: 47.96375em) {
-  .u-col12Small, .collab-imgWrapper, .collab-copy, .caseStudy-copy, .ourWork-item {
+  .u-col12Small, .collab-imgWrapper, .collab-copy, .pullquote-copy, .pullquote-byline, .caseStudy-copy, .ourWork-item {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 100%; }
-    .u-col12Small:last-child, .collab-imgWrapper:last-child, .collab-copy:last-child, .caseStudy-copy:last-child, .ourWork-item:last-child {
+    .u-col12Small:last-child, .collab-imgWrapper:last-child, .collab-copy:last-child, .pullquote-copy:last-child, .pullquote-byline:last-child, .caseStudy-copy:last-child, .ourWork-item:last-child {
       margin-right: 0; }
-    .u-col12Small:nth-child(1n+1), .collab-imgWrapper:nth-child(1n+1), .collab-copy:nth-child(1n+1), .caseStudy-copy:nth-child(1n+1), .ourWork-item:nth-child(1n+1) {
+    .u-col12Small:nth-child(1n+1), .collab-imgWrapper:nth-child(1n+1), .collab-copy:nth-child(1n+1), .pullquote-copy:nth-child(1n+1), .pullquote-byline:nth-child(1n+1), .caseStudy-copy:nth-child(1n+1), .ourWork-item:nth-child(1n+1) {
       margin-right: 0; }
 
   .u-push12Small {
@@ -310,14 +310,14 @@ html {
   .u-pull5Medium {
     margin-left: -42.6490214991%; } }
 @media screen and (min-width: 48em) and (max-width: 80.02625em) {
-  .u-col6Medium, .collab-copy, .ourWork-item {
+  .u-col6Medium, .collab-copy, .pullquote-copy, .ourWork-item {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 48.821174201%; }
-    .u-col6Medium:last-child, .collab-copy:last-child, .ourWork-item:last-child {
+    .u-col6Medium:last-child, .collab-copy:last-child, .pullquote-copy:last-child, .ourWork-item:last-child {
       margin-right: 0; }
-    .u-col6Medium:nth-child(2n+2), .collab-copy:nth-child(2n+2), .ourWork-item:nth-child(2n+2) {
+    .u-col6Medium:nth-child(2n+2), .collab-copy:nth-child(2n+2), .pullquote-copy:nth-child(2n+2), .ourWork-item:nth-child(2n+2) {
       margin-right: 0; }
 
   .u-push6Medium {
@@ -1888,16 +1888,40 @@ article {
     margin-top: -96px; } }
 
 .pullquote {
-  text-align: center; }
+  position: relative;
+  margin-bottom: 48px;
+  margin-top: 96px; }
+  @media screen and (min-width: 48em) {
+    .pullquote {
+      margin-bottom: 72px;
+      margin-top: 120px; } }
 
 .pullquote-copy {
   font-size: 25px;
-  position: relative; }
+  position: relative;
+  z-index: 100;
+  display: block; }
+  @media screen and (min-width: 48em) {
+    .pullquote-copy {
+      margin-left: 25.5894128995%; } }
 
 .pullquote-marks {
   font-family: "program-narrow", "mr-eaves-xl-modern", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 61.03515625px;
-  position: absolute; }
+  font-size: 500px;
+  position: absolute;
+  color: #F1E61E;
+  top: -230px;
+  left: 12%; }
+
+.pullquote-byline {
+  display: block;
+  font-size: 20px; }
+
+.pullquote-img {
+  max-width: 149.0116119385px; }
+  @media screen and (min-width: 48em) {
+    .pullquote-img {
+      margin-top: 96px; } }
 
 .caseStudy-bg {
   background-image: url(../img/photo-casestudy.jpg);
