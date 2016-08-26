@@ -96,3 +96,8 @@ article {
 .pullquote-byline {
 
 }
+.paper {
+  box-shadow: 12px 12px 48px $color-gray,
+            0px 0px 24px $color-gray;
+  padding: $space-base *2;
+}
