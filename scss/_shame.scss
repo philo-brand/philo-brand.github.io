@@ -56,22 +56,22 @@ article {
   position: relative;
 }
 .collab-imgWrapper {
- @extend .u-col12Small, .u-col5Medium, .u-col6Large;
+ @extend .u-col12Small, .u-col6Medium, .u-col6Large;
 }
 .collab-img {
-  margin-top: $space-base *-6;
+  margin-top: $space-base *-2;
   position: relative;
-  left: 67.5%;
-  width: 37.5%;
+  // left: 67.5%;
+  width: 50%;
   z-index: $zIndex-0;
+  min-width: 230px;
   @include media($medium-screen) {
     left: 18.75%;
-    margin-top: $space-base *-2;
+    margin-top: 0;
     width: 75%;
   }
   @include media($large-screen) {
     left: 25%;
-    margin-top: 0;
     width: 68.75%;
   }
 }
