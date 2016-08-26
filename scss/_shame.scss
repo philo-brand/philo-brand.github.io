@@ -165,5 +165,29 @@ article {
   margin: $space-base /-2 0 $space-base /2;
 }
 .ourWork-btn {
+  color: $color-midnight;
   margin-left: $space-base *-1;
+  margin-bottom: $space-base;
+  vertical-align: middle;
+}
+.ourWork-btn img {
+  margin-top: -2px;
+  vertical-align: middle;
+}
+.flavor {
+  padding: $space-base;
+  text-align: center;
+}
+.flavor-img {
+  height: $space-base *8;
+  width: auto;
+}
+.flavor-item {
+  @extend .u-col12Small, .u-col6Medium, .u-col3Large;
+  padding: 0 $space-base;
+  margin-bottom: $space-base *3;
+}
+.flavor .btn--external {
+  background-color: darken($color-white, 5%);
+  color: $color-midnight;
 }
