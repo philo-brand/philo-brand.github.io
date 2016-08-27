@@ -750,13 +750,14 @@ input[type="submit"].btn--wide {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  -webkit-transition: background-color 200ms linear, color 200ms linear;
-  -moz-transition: background-color 200ms linear, color 200ms linear;
-  transition: background-color 200ms linear, color 200ms linear;
+  -webkit-transition: background-color 200ms linear, box-shadow 200ms linear, color 200ms linear;
+  -moz-transition: background-color 200ms linear, box-shadow 200ms linear, color 200ms linear;
+  transition: background-color 200ms linear, box-shadow 200ms linear, color 200ms linear;
   -webkit-font-smoothing: antialiased;
   background-color: #e4285e;
   border-radius: 1px;
   border: none;
+  box-shadow: inset 0 0 0 0 #c11849;
   color: white;
   cursor: pointer;
   display: inline-block;
@@ -796,7 +797,7 @@ input[type="submit"].btn--wide {
   input[type="submit"].btn--small:focus,
   .btn--wide:focus,
   input[type="submit"].btn--wide:focus {
-    background-color: #d71b51;
+    box-shadow: inset 200px 0 0 0 #c11849;
     color: white; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled,
@@ -826,6 +827,7 @@ input[type="submit"].btn--secondary {
   input[type="submit"].btn--secondary:focus {
     background-color: #f2f2f2;
     border-color: #f2f2f2;
+    box-shadow: none;
     color: #e4285e; }
 
 .btn--center,
@@ -1354,9 +1356,9 @@ a {
   margin-right: 4px; }
 
 .siteHead-logoImg:focus img:first-of-type, .siteHead-logoImg:hover img:first-of-type {
-  -webkit-transition: -webkit-transform 600ms linear;
-  -moz-transition: -moz-transform 600ms linear;
-  transition: transform 600ms linear;
+  -webkit-transition: -webkit-transform 500ms linear;
+  -moz-transition: -moz-transform 500ms linear;
+  transition: transform 500ms linear;
   transform: rotate(360deg); }
 
 .siteHead-mobileMenuBtn {
@@ -1789,7 +1791,7 @@ a {
 
 .confetti-piece {
   position: absolute;
-  z-index: 300;
+  z-index: 200;
   mix-blend-mode: multiply; }
 
 .piece--ne {
@@ -1800,7 +1802,7 @@ a {
       right: 3%;
       top: 4%;
       transform: rotate(0deg);
-      animation: spin-counterclockwise 80s ease infinite; } }
+      animation: spin-counterclockwise 80s linear infinite; } }
 
 .piece--se {
   right: 0;
@@ -1810,7 +1812,7 @@ a {
       right: 20%;
       top: 16%;
       transform: rotate(0deg);
-      animation: spin-counterclockwise 20s ease infinite; } }
+      animation: spin-counterclockwise 20s linear infinite; } }
 
 .piece--nw {
   left: -5%;
@@ -1820,7 +1822,7 @@ a {
       left: 4%;
       top: 9%;
       transform: rotate(0deg);
-      animation: spin-clockwise 40s ease infinite; } }
+      animation: spin-clockwise 40s linear infinite; } }
 
 .piece--n {
   left: 50%;
@@ -1828,7 +1830,7 @@ a {
   @media screen and (min-width: 48em) {
     .piece--n {
       transform: rotate(0deg);
-      animation: spin-clockwise 20s ease infinite; } }
+      animation: spin-clockwise 20s linear infinite; } }
 
 @keyframes spin-clockwise {
   from {

@@ -30,7 +30,7 @@
   &:focus,
   &:hover {
     img:first-of-type {
-      @include transition(transform 600ms $transition-ease);
+      @include transition(transform 500ms $transition-ease);
       transform: rotate(360deg);
     }
   }
