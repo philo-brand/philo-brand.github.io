@@ -59,19 +59,19 @@ article {
  @extend .u-col12Small, .u-col6Medium, .u-col6Large;
 }
 .collab-img {
-  top: $space-base *-2;
+  margin-top: $space-base *-2;
   position: relative;
   width: 50%;
   z-index: $zIndex-0;
   min-width: 230px;
   left: 12.5%;
   @include media($medium-screen) {
-    top: $space-base *-3;
+    margin-top: $space-base *-2;
     width: 75%;
   }
   @include media($large-screen) {
-    left: 20%;
-    top: $space-base *-5;
+    margin-left: 10%;
+    margin-top: $space-base *-4;
   }
 }
 .collab-copy {
@@ -85,18 +85,18 @@ article {
   margin-bottom: $space-base *2;
   margin-top: $space-base *4;
   @include media($medium-screen) {
+    margin-top: 0;
     margin-bottom: $space-base *3;
-    margin-top: $space-base *4;
   }
 }
 .pullquote-copy {
   font-size: modular-scale(2);
   position: relative;
-  @extend .u-col12Small, .u-col6Medium, .u-col8Large;
+  @extend .u-col12Small, .u-col8Medium, .u-col8Large;
   z-index: $zIndex-1;
   display: block;
   @include media($medium-screen) {
-    @include shift(3);
+    @include shift(1);
   }
   @include media($large-screen) {
     @include shift(1);
@@ -107,27 +107,21 @@ article {
   font-size: 500px;
   position: absolute;
   color: #F1E61E;
-  top: -230px;
+  top: -283px;
+  right: 0;
   @include media($medium-screen) {
-    left: 12%;
-  }
-  @include media($large-screen) {
-    left: -5%;
+    right: 12%;
   }
 }
 .pullquote-byline {
   display: block;
-  font-size: modular-scale(1);
+  font-size: modular-scale(0);
   @extend .u-col12Small;
 }
 .pullquote-img {
-  max-width: modular-scale(10);
-  @include media($medium-screen) {
-    margin-top: $space-base *4;
-  }
-  @include media($large-screen) {
-    margin-top: $space-base *2;
-  }
+  max-width: modular-scale(6);
+  margin-top: -4px;
+  @extend .u-col2Large, .u-col3Medium, .u-col4Small;
 }
 .caseStudy-bg {
   background-image: url(../img/photo-casestudy.jpg);
@@ -186,16 +180,24 @@ article {
   vertical-align: middle;
 }
 .flavor {
-  padding: $space-base;
+  padding: 0 $space-base;
   text-align: center;
 }
 .flavor-header{
   font-size: modular-scale(4);
   margin: $space-base /2 0 $space-base /3;
 }
-.flavor-img {
-  height: $space-base *7;
+.flavor-img-wrapper {
+  @include media($medium-screen) {
+    height: $space-base *8;
+  }
   width: auto;
+}
+.flavor-img-social {
+  margin-top: $space-base *4;
+}
+.flavor-img-building {
+  margin-top: $space-base *3;
 }
 .flavor-item {
   @extend .u-col12Small, .u-col6Medium, .u-col3Large;
