@@ -25,12 +25,13 @@
 
 // Nav items
 .menu-listItem {
-  background-color: $color-black60;
+  background-color: $color-pink;
   border-bottom: solid 1px $color-siteBackground;
   display: block;
   padding: 0;
   text-align: center;
   width: 100%;
+  z-index: $zIndex-4;
   @include media ($mobileMenuBreak) {
     background: transparent;
     border: none;
@@ -59,5 +60,7 @@
   }
 }
 .menu-itemLink--callout {
-  color: $color-pink;
+  @include media ($mobileMenuBreak) {
+    color: $color-pink;
+  }
 }

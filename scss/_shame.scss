@@ -59,20 +59,19 @@ article {
  @extend .u-col12Small, .u-col6Medium, .u-col6Large;
 }
 .collab-img {
-  margin-top: $space-base *-2;
+  top: $space-base *-2;
   position: relative;
   width: 50%;
   z-index: $zIndex-0;
   min-width: 230px;
+  left: 12.5%;
   @include media($medium-screen) {
-    left: 18.75%;
-    margin-top: 0;
+    top: $space-base *-3;
     width: 75%;
   }
   @include media($large-screen) {
     left: 20%;
-    width: 75%;
-    top: $space-base *-3;
+    top: $space-base *-5;
   }
 }
 .collab-copy {
