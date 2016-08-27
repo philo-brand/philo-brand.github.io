@@ -1785,7 +1785,9 @@ a {
   @media screen and (min-width: 48em) {
     .piece--ne {
       right: 3%;
-      top: 4%; } }
+      top: 4%;
+      transform: rotate(0deg);
+      animation: spin-counterclockwise 80s ease infinite; } }
 
 .piece--se {
   right: 0;
@@ -1793,7 +1795,9 @@ a {
   @media screen and (min-width: 48em) {
     .piece--se {
       right: 20%;
-      top: 16%; } }
+      top: 16%;
+      transform: rotate(0deg);
+      animation: spin-counterclockwise 20s ease infinite; } }
 
 .piece--nw {
   left: -5%;
@@ -1801,12 +1805,28 @@ a {
   @media screen and (min-width: 48em) {
     .piece--nw {
       left: 4%;
-      top: 9%; } }
+      top: 9%;
+      transform: rotate(0deg);
+      animation: spin-clockwise 40s ease infinite; } }
 
 .piece--n {
   left: 50%;
   top: 0.5%; }
+  @media screen and (min-width: 48em) {
+    .piece--n {
+      transform: rotate(0deg);
+      animation: spin-clockwise 20s ease infinite; } }
 
+@keyframes spin-clockwise {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+@keyframes spin-counterclockwise {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-360deg); } }
 html {
   height: 100%; }
 

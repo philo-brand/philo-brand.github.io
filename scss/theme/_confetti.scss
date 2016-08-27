@@ -11,6 +11,8 @@
   @include media($medium-screen-up) {
     right: 3%;
     top: 4%;
+    transform: rotate(0deg);
+    animation: spin-counterclockwise 80s ease infinite;
   }
 }
 .piece--se {
@@ -19,6 +21,8 @@
   @include media($medium-screen-up) {
     right: 20%;
     top: 16%;
+    transform: rotate(0deg);
+    animation: spin-counterclockwise 20s ease infinite;
   }
 }
 .piece--nw {
@@ -27,9 +31,24 @@
   @include media($medium-screen-up) {
     left: 4%;
     top: 9%;
+    transform: rotate(0deg);
+    animation: spin-clockwise 40s ease infinite;
   }
 }
 .piece--n {
   left: 50%;
   top: 0.5%;
+  @include media($medium-screen-up) {
+    transform: rotate(0deg);
+    animation: spin-clockwise 20s ease infinite;
+  }
+}
+
+@keyframes spin-clockwise {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes spin-counterclockwise {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
 }
