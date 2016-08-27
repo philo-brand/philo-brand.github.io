@@ -1802,7 +1802,7 @@ a {
       right: 3%;
       top: 4%;
       transform: rotate(0deg);
-      animation: spin-counterclockwise 80s ease infinite; } }
+      animation: spin-counterclockwise 80s linear infinite; } }
 
 .piece--se {
   right: 0;
@@ -1812,7 +1812,7 @@ a {
       right: 20%;
       top: 16%;
       transform: rotate(0deg);
-      animation: spin-counterclockwise 20s ease infinite; } }
+      animation: spin-counterclockwise 20s linear infinite; } }
 
 .piece--nw {
   left: -5%;
@@ -1822,7 +1822,7 @@ a {
       left: 4%;
       top: 9%;
       transform: rotate(0deg);
-      animation: spin-clockwise 40s ease infinite; } }
+      animation: spin-clockwise 40s linear infinite; } }
 
 .piece--n {
   left: 50%;
@@ -1830,7 +1830,7 @@ a {
   @media screen and (min-width: 48em) {
     .piece--n {
       transform: rotate(0deg);
-      animation: spin-clockwise 20s ease infinite; } }
+      animation: spin-clockwise 20s linear infinite; } }
 
 @keyframes spin-clockwise {
   from {
