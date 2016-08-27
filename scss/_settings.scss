@@ -1,7 +1,7 @@
 @import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
 
 // Neat Overrides
-$modular-scale-ratio: $minor-third;
+$modular-scale-ratio: $major-third;
 $modular-scale-base: 16px;
 $column: modular-scale(3);
 $gutter: modular-scale(1);
@@ -30,7 +30,7 @@ $color-pinkTint: tint($color-pink, 50%);
 $color-pinkShade: shade($color-pink, 50%);
 $color-green: rgb(117, 235, 191);
 $color-greenTint: tint($color-green, 50%);
-$color-greenShade: shade($color-green, 50%);
+$color-greenShade: shade($color-green, 20%);
 $color-gold: rgb(213, 194, 132);
 $color-goldTint: tint($color-gold, 50%);
 $color-goldShade: shade($color-gold, 50%);
