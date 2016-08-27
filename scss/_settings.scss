@@ -18,7 +18,7 @@ $xxlarge-screen: em(1921);
 $small-screen-up: new-breakpoint(min-width $small-screen);
 $medium-screen-up: new-breakpoint(min-width $medium-screen);
 $large-screen-up: new-breakpoint(min-width $large-screen);
-$mobileMenuBreak: 1024px;
+$mobileMenuBreak: 768px;
 
 // Brand Palette
 $color-egg: rgb(247, 246, 237);
