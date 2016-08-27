@@ -1,7 +1,7 @@
 @import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
 
 // Neat Overrides
-$modular-scale-ratio: $major-third;
+$modular-scale-ratio: $minor-third;
 $modular-scale-base: 16px;
 $column: modular-scale(3);
 $gutter: modular-scale(1);
