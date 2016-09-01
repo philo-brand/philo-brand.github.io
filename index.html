@@ -35,7 +35,6 @@
 
     <script src="https://use.typekit.net/mbv2qzm.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -200,5 +199,16 @@
     <!-- Page specific -->
     <script src="bower_components/FitText.js/jquery.fittext.js"></script>
     <script>jQuery(".js-fitText").fitText();</script>
+    <script type="text/javascript">
+      (function() {
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = '//api.usersnap.com/load/'+
+              '38abf616-d794-4592-8a24-aab2f6384668.js';
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+      })();
+    </script>
   </body>
 </html>
